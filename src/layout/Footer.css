@@ -1,0 +1,36 @@
+.footer-container{
+  padding-top: 2em;
+}
+.footer-container .title-container{
+  cursor: pointer;
+}
+.footer-container .footer-content{
+  width: 80%;
+}
+.footer-container .footer-content .tab-title{
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+.footer-container .footer-content .tab-nav{
+  font-size: 0.8em;
+}
+.footer-container .footer-social .icons-container span{
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.footer-container .footer-social .copyright-container{
+  font-size: 0.8em;
+}
+.footer-container .footer-social .version-container{
+  font-size: 0.9em;
+  margin-right: 1em;
+}
+@media (max-width: 576px){
+  .footer-container .footer-social .copyright-container{
+    margin-top: 1em;
+    font-size: 0.6em;
+  }
+  .footer-container .footer-social .version-container{
+    font-size: 0.6em;
+  }
+}

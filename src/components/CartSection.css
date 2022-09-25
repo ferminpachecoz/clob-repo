@@ -1,0 +1,53 @@
+.cart-banner{
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+.cart-banner .shadow{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+.cart-content .title{
+  font-size: 1em;
+}
+.cart-content .size-info{
+  font-size: 0.9em;
+}
+.cart-content .remove{
+  cursor: pointer;
+}
+.cart-content .remove span{
+  font-size: 0.9em;
+}
+.cart-content .remove i{
+  font-size: 1.2em;
+}
+.purchase-info .resumen{
+  font-size: 0.9em;
+}
+.purchase-info .button-container button{
+  width: 100%;
+  padding: 0.5em 0em;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  transition: 0.5s;
+  border: 1px solid black;
+}
+.purchase-info .button-container button:hover{
+  background-color: white;
+  color: black;
+}
+.cart-container .product-image{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 576px){
+  .cart-banner{
+    height: 20vh;
+  }
+}

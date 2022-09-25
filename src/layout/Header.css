@@ -1,0 +1,178 @@
+.header-container{
+  padding: 2em 4em 0em 4em;
+  background-color: transparent;
+  transition: 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+}
+.header-container:hover{
+  background-color: white;
+}
+.header-container:hover .bottom-nav li a{
+  color: black;
+}
+.header-container:hover .search-container p{
+  color: black;
+}
+.header-container:hover .search-container i{
+  color: black;
+}
+.header-container .search-container{
+  cursor: pointer;
+}
+.header-container .search-container i{
+  color: white;
+  transition: 1s;
+}
+.header-container .search-container p{
+  font-size: 0.8em;
+  margin-top: 2px;
+  color: white;
+  transition: 1s;
+}
+.header-container .logo-container a h1{
+  font-size: 2em;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  color: white;
+  transition: 1s;
+}
+.header-container:hover .logo-container a h1{
+  color: black;
+}
+.header-container .top-nav a{
+  font-size: 1.3em;
+  color: white;
+  transition: 1s;
+}
+.header-container:hover .top-nav a{
+  color: black;
+}
+.header-container .bottom-nav li{
+  text-transform: uppercase;
+  margin: 0px 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 2px solid white;
+}
+.header-container .bottom-nav li a{
+  color: white;
+  transition: 1s;
+}
+.header-container .bottom-nav li:hover{
+  border-bottom: 2px solid black;
+}
+.header-container .search-nav{
+  position: relative;
+  margin-bottom: 3em;
+}
+.header-container .search-nav .input-container{
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  border-radius: 5px;
+  width: 50vw;
+}
+.header-container .search-nav .input-container input{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+.header-container .search-nav .input-container span{
+  margin: 0px 5px;
+  font-size: 1.1em;
+}
+
+.header-container .search-nav .close-search{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  cursor: pointer;
+  font-size: 2em;
+}
+.header-container .top-nav .cart-icon span{
+  font-size: 0.4em;
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+.header-container:hover .top-nav .cart-icon span{
+  font-size: 0.4em;
+  background-color: black;
+  color: white;
+}
+.header-container .nav .burger-menu{
+  display: none;
+}
+.header-container .responsive-nav{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  overflow: scroll;
+}
+.header-container .responsive-nav .nav-container{
+  width: 100%;
+}
+.header-container .responsive-nav .nav-container li{
+  margin: 10px 0px;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+.header-container .responsive-nav .nav-container li a{
+  width: 100%;
+  text-transform: capitalize;
+  display: block;
+}
+.header-container .responsive-nav .nav-title{
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.header-container .search-nav .results{
+  width: 100%;
+}
+.header-container .search-nav .results li{
+  padding: 5px;
+  border-radius: 5px;
+}
+.header-container .search-nav .results li:hover{
+  background-color: rgb(218, 218, 218);
+}
+.header-container .link-result{
+  display: block;
+}
+
+
+@media (max-width: 576px){
+  .header-container{
+    padding: 0;
+  }
+  .header-container .logo-container a h1{
+    font-size: 1em;
+    margin-right: 1.5em;
+  }
+  .header-container .nav a{
+    display: none;
+  }
+  .header-container .nav .burger-menu{
+    display: block;
+    margin-right: 10px;
+  }
+  .header-container .search-container{
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .header-container .bottom-nav{
+    display: none !important;
+  }
+  .header-container .search-nav .input-container{
+    width: 80vw;
+  }
+  .header-container .search-nav{
+    margin-bottom: 1em;
+  }
+}

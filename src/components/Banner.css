@@ -1,0 +1,42 @@
+.banner-container{
+  background-image: url("../../public/banner-moncler-1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+.banner-container .content{
+  margin-top: 15em;
+}
+.banner-container .content h1{
+  text-transform: uppercase;
+  color: white;
+  font-size: 3em;
+  font-weight: 300;
+}
+.banner-container .content button{
+  padding: 0.8em 3em;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 0.9em;
+  transition: 1s;
+}
+.banner-container .content button:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 576px){
+  .banner-container{
+    height: 90vh;
+  }
+  .banner-container .content{
+    margin-top: 0em;
+  }
+  .banner-container .content h1{
+    font-size: 1.5em;
+  }
+  .banner-container .content button{
+    padding: 0.5em 2em;
+    margin-top: 1em;
+  }
+}

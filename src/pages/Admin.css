@@ -1,0 +1,12 @@
+.admin-banner-container{
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3em;
+}
+@media(max-width: 576px){
+  .admin-banner-container{
+    height: 15vh;
+  }
+}
