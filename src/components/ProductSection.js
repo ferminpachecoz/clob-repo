@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProductSection.css';
-import Carousel from 'react-elastic-carousel';
+import Slider from 'react-slick';
 import { useState } from 'react';
 
 export default function ProductSection({display, product}) {
@@ -11,6 +11,13 @@ export default function ProductSection({display, product}) {
   if(product && product.discount){
     count = product.price * ((100-product.discount)/100)
   }
+  let settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }
   return (
     <div>
       <div className='only-product-banner' style={{backgroundImage:"url('images/mountains-banner-5.jpg')"}}>
@@ -20,16 +27,20 @@ export default function ProductSection({display, product}) {
       </div>
       <div className='product-container row row-cols-1 row-cols-md-2'>
         <div className='col mb-3'>
-          <Carousel itemsToShow={1}>
+          <Slider {...settings}>
             {images &&
               images.map(item=>
-              <div key={item.id} className="image-container" style={{backgroundImage: `url(${'images/'+item.path})`}}></div>
+              <div key={item.id} className="image-container">
+                <div className='background-img' style={{backgroundImage: `url(${'images/'+item.path})`}}>
+
+                </div>
+              </div>
               )
             }
             {!images &&
               <div></div>
             }
-          </Carousel>
+          </Slider>
         </div>
         <div className='col d-flex justify-content-center align-items-center'>
           <div className='col-8 product-nav'>

@@ -93,3 +93,11 @@ h1{
 .font-red{
   color: red;
 }
+.slick-next::before{
+  color: black !important;
+  font-size: 40px;
+}
+.slick-prev::before{
+  color: black !important;
+  font-size: 40px;
+}

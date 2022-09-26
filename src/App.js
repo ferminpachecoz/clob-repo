@@ -6,7 +6,8 @@ import Product from './pages/Product';
 import Cart from './pages/Cart';
 import Login from './pages/Login';
 import Contact from './pages/Contact';
-import Admin from './pages/Admin'
+import Admin from './pages/Admin';
+import SandBox from './pages/SandBox';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path='/login' element={<Login />} />
       <Route path='/contact' element={<Contact />} />
       <Route path='/admin' element={<Admin />} />
+      <Route path='/sandbox' element={<SandBox />} />
     </Routes>
   );
 }
