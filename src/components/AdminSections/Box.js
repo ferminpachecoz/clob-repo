@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductSection from './ProductSection';
 import LayoutHeader from './LayoutHeader';
+import AdminLayout from './AdminLayout';
 import { useState, useEffect } from 'react';
 
 export default function Box({tab}) {
@@ -30,6 +31,7 @@ export default function Box({tab}) {
       {tab === 0 && <ProductSection />}
       {tab === 2 && <LayoutHeader category={headerCategory} notHeader={notHeader} title={"Categorias Visibles"} section="header" />}
       {tab == 1 && <LayoutHeader category={bannerCategory} notHeader={notBanner} title={"Categorias Visibles"} section="banner" />}
+      {tab === 3 && <AdminLayout />}
     </div>
   )
 }

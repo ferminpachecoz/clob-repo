@@ -1,0 +1,27 @@
+.admin-form-container .input-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.admin-form-container .input-wrapper input{
+  width: 40%;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.admin-form-container .button-wrapper{
+  width: 40%;
+  margin-top: 2em;
+}
+.admin-form-container .button-wrapper button{
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+}
+.admin-form-container .error-message{
+  font-size: 0.9em;
+  color: red;
+}

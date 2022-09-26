@@ -15,6 +15,9 @@ export default function SideBar({func}) {
         <a href="#" onClick={()=>func(1)}>
           <li>Banner</li>
         </a>
+        <a href="#" onClick={()=>func(3)}>
+          <li>Admin</li>
+        </a>
       </ul>
     </div>
   )
