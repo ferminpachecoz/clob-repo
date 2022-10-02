@@ -20,7 +20,7 @@ export default function CardSm({click, product}) {
         },
         body: JSON.stringify(data)
       }
-      fetch('https://lm-serverless.herokuapp.com/delete', request)
+      fetch('https://179.61.219.130:8090/preview/fpz-server.com/delete', request)
         .then(res => res.json())
         .then(data => setDeleted(data))
         .catch(err => console.error(err))

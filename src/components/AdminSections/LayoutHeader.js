@@ -15,7 +15,7 @@ export default function LayoutHeader({category, notHeader, title, section}) {
         },
         body: JSON.stringify({id: id, [section]: 1})
       }
-      fetch('https://lm-serverless.herokuapp.com/detail-category', request)
+      fetch('https://179.61.219.130:8090/preview/fpz-server.com/detail-category', request)
         .then(res => res.json())
         .then(a =>{
           if(a.status === 1){
@@ -33,7 +33,7 @@ export default function LayoutHeader({category, notHeader, title, section}) {
         },
         body: JSON.stringify({id: id, [section]: 0})
       }
-      fetch('https://lm-serverless.herokuapp.com/detail-category', request)
+      fetch('https://179.61.219.130:8090/preview/fpz-server.com/detail-category', request)
         .then(res => res.json())
         .then(a =>{
           if(a.status === 1){

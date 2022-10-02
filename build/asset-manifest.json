@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/css/main.4c9799e3.css",
+    "main.js": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/js/main.18146fa8.js",
+    "static/js/787.c4e7f8f9.chunk.js": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/banner-moncler-1.jpg": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/media/banner-moncler-1.6235ac404dbbc95d2dd2.jpg",
+    "index.html": "https://179.61.219.130:8090/preview/ferminpacheco.site/index.html",
+    "main.4c9799e3.css.map": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/css/main.4c9799e3.css.map",
+    "main.18146fa8.js.map": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/js/main.18146fa8.js.map",
+    "787.c4e7f8f9.chunk.js.map": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c9799e3.css",
+    "static/js/main.18146fa8.js"
+  ]
+}

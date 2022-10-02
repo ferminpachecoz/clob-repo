@@ -9,7 +9,7 @@ export default function Category() {
   let query = new URLSearchParams(window.location.search);
   let id = query.get('id')
   useEffect(()=>{
-    fetch('https://lm-serverless.herokuapp.com/products')
+    fetch('https://179.61.219.130:8090/preview/fpz-server.com/products')
       .then(res => res.json())
       .then(data =>{
         let category = data.filter(item=>item.id_category == id)

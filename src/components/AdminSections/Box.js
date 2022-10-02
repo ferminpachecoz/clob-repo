@@ -10,7 +10,7 @@ export default function Box({tab}) {
   const [notHeader, setNotHeader] = useState([]);
   const [notBanner, setNotBanner] = useState([])
   useEffect(()=>{
-    fetch('https://lm-serverless.herokuapp.com/category')
+    fetch('https://179.61.219.130:8090/preview/fpz-server.com/category')
       .then(res => res.json())
       .then(data =>{
         if(data){

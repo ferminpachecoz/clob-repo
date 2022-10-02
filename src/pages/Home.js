@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 export default function Home() {
   const [ofertas, setOfertas] = useState([])
   useEffect(()=>{
-    fetch('https://lm-serverless.herokuapp.com/products')
+    fetch('https://179.61.219.130:8090/preview/fpz-server.com/products')
       .then(res => res.json())
       .then(data =>{
         let products = data.filter(item => item.discount)

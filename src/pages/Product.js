@@ -12,7 +12,7 @@ export default function Product() {
   let id = query.get('id');
 
   useEffect(()=>{
-    fetch("https://lm-serverless.herokuapp.com/product/"+id)
+    fetch("https://179.61.219.130:8090/preview/fpz-server.com/product/"+id)
       .then(res => res.json())
       .then(data => setProduct(data))
       .catch(err => console.error(err))

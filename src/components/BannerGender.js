@@ -7,7 +7,7 @@ export default function BannerGender() {
   const [category, setCategory] = useState([])
   useEffect(()=>{
     AOS.init()
-    fetch('https://lm-serverless.herokuapp.com/category')
+    fetch('https://179.61.219.130:8090/preview/fpz-server.com/category')
       .then(res => res.json())
       .then(data =>{
         let category = data.filter(item=>item.banner == 1)

@@ -28,7 +28,7 @@ export default function AdminLayout() {
       },
       body: JSON.stringify(body)
     }
-    fetch("http://localhost:3001/users/admin", request)
+    fetch("https://179.61.219.130:8090/preview/fpz-server.com/users/admin", request)
       .then(res => res.json())
       .then(data => console.log(data))
       .catch(err => console.error(err))

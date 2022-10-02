@@ -13,14 +13,14 @@ export default function Header() {
   console.log(search);
 
   const handleChange = query =>{
-    fetch(`https://lm-serverless.herokuapp.com/search?query=${query}`)
+    fetch(`https://179.61.219.130:8090/preview/fpz-server.com/search?query=${query}`)
       .then(res => res.json())
       .then(data => setSearch(data))
       .catch(err => console.error(err))
   }
 
   useEffect(()=>{
-    fetch('https://lm-serverless.herokuapp.com/category')
+    fetch('https://179.61.219.130:8090/preview/fpz-server.com/category')
       .then(res => res.json())
       .then(data =>{
         let x = data.filter(item=>item.header == 1)

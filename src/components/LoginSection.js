@@ -20,7 +20,7 @@ export default function LoginSection() {
       },
       body: JSON.stringify(data)
     }
-    fetch('https://lm-serverless.herokuapp.com/users/create', request)
+    fetch('https://179.61.219.130:8090/preview/fpz-server.com/users/create', request)
       .then(res => res.json())
       .then(data =>{
         if(data && data.email && data.password){

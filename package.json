@@ -4,7 +4,7 @@
   "engines": {
     "node": "18.x"
   },
-  "private": true,
+  "homepage": "https://179.61.219.130:8090/preview/ferminpacheco.site/",
   "dependencies": {
     "@hookform/resolvers": "^2.9.8",
     "@react-google-maps/api": "^2.13.1",

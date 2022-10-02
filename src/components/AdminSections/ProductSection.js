@@ -17,7 +17,7 @@ export default function ProductSection() {
   }
 
   useEffect(()=>{
-    fetch('https://lm-serverless.herokuapp.com/products')
+    fetch('https://179.61.219.130:8090/preview/fpz-server.com/products')
       .then(res => res.json())
       .then(data => setProducts(data))
       .catch(err => console.error(err))
