@@ -35,7 +35,7 @@ export default function CartSection() {
   
   return (
     <div>
-      <div className='cart-banner' style={{backgroundImage: "url('images/mountains-banner-4.jpg')"}}>
+      <div className='cart-banner' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/mountains-banner-4.jpg')"}}>
         <div className='shadow d-flex justify-content-center align-items-end'>
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function CartSection() {
           products.map((item, i)=>    
             <div className='col-11 col-md-6 row mb-4' key={i}>
               <div className='col-4'>
-                <div className='product-image' style={{backgroundImage: `url(${item.path})`}}>
+                <div className='product-image' style={{backgroundImage: `url('/preview/ferminpacheco.site/${item.path}')`}}>
 
                 </div>
               </div>

@@ -48,15 +48,15 @@ export default function Header() {
               <li><p className='nav-title'>Categorias</p></li>
               {
                 category.map(item=>
-                  <li key={item.id}><a href={`/category?id=${item.id}`}>{item.title}</a></li>
+                  <li key={item.id}><a href={`/preview/ferminpacheco.site/category?id=${item.id}`}>{item.title}</a></li>
                 )
               }
               <li><p className='nav-title mt-4'>Navegación</p></li>
-              <li><a href="/contact">contacto</a></li>
-              <li><a href="/login">iniciar sesión</a></li>
-              <li><a href="/cart">carrito de compras</a></li>
+              <li><a href="/preview/ferminpacheco.site/contact">contacto</a></li>
+              <li><a href="/preview/ferminpacheco.site/login">iniciar sesión</a></li>
+              <li><a href="/preview/ferminpacheco.site/cart">carrito de compras</a></li>
               {admin &&
-                <li><a href="/admin">admin</a></li>
+                <li><a href="/preview/ferminpacheco.site/admin">admin</a></li>
               }
             </ul>
           </div>
@@ -70,17 +70,17 @@ export default function Header() {
             <p>Search</p>
           </div>
           <div className='logo-container'>
-            <a href="/">
+            <a href="/preview/ferminpacheco.site/">
               <h1>LOUIS VUITTON</h1>
             </a>
           </div>
           <div className='nav'>
             {admin=="true" &&
-              <a href="/admin" className='me-3'><i className="bi bi-speedometer2"></i></a>
+              <a href="/preview/ferminpacheco.site/admin" className='me-3'><i className="bi bi-speedometer2"></i></a>
             }
-            <a href="/contact" className='me-3'><i className="bi bi-telephone"></i></a>
-            <a href="/login" className='me-3'><i className="bi bi-person"></i></a>
-            <a href="/cart" className='cart-icon'>
+            <a href="/preview/ferminpacheco.site/contact" className='me-3'><i className="bi bi-telephone"></i></a>
+            <a href="/preview/ferminpacheco.site/login" className='me-3'><i className="bi bi-person"></i></a>
+            <a href="/preview/ferminpacheco.site/cart" className='cart-icon'>
               <i className="bi bi-cart position-relative">
                 <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill">
                   {units}
@@ -94,7 +94,7 @@ export default function Header() {
           <ul className='d-flex justify-content-evenly'>
             {category &&
               category.map(item=>
-                <li key={item.id}><a href={`/category?id=${item.id}`}>{item.title}</a></li>
+                <li key={item.id}><a href={`/preview/ferminpacheco.site/category?id=${item.id}`}>{item.title}</a></li>
               )
             }
           </ul>
@@ -114,7 +114,7 @@ export default function Header() {
             <ul>
               {search &&
                 search.map(item=>
-                  <li key={item.id}><a className='link-result' href={`/product?id=${item.id}`}>{item.name}</a></li>
+                  <li key={item.id}><a className='link-result' href={`/preview/ferminpacheco.site/product?id=${item.id}`}>{item.name}</a></li>
                 )
               }
             </ul>

@@ -31,7 +31,7 @@ export default function ModalPurchase({display}) {
                 {products.length>0 &&
                   products.map((item, i) =>  
                     <div className='product-info d-flex my-3' key={i}>
-                      <div className='col-4 product-image' style={{backgroundImage: `url(${item.path})`}}>
+                      <div className='col-4 product-image' style={{backgroundImage: `url('/preview/ferminpacheco.site/${item.path}')`}}>
 
                       </div>
                       <div className='col-8 p-2'>
@@ -62,8 +62,8 @@ export default function ModalPurchase({display}) {
                   <p>${totalDiscount},00</p>
                 </div>
                 <div className='d-flex flex-column button-container'>
-                  <button className='cart mb-3'><a href="/cart">Ver carrito</a></button>
-                  <button className='pay'><a href="/cart">Pagar</a></button>
+                  <button className='cart mb-3'><a href="/preview/ferminpacheco.site/cart">Ver carrito</a></button>
+                  <button className='pay'><a href="/preview/ferminpacheco.site/cart">Pagar</a></button>
                 </div>
               </div>
             </div>

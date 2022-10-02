@@ -35,7 +35,7 @@ export default function LoginSection() {
 
   return (
     <div className='login-container'>
-      <div className='banner-login' style={{backgroundImage: "url('images/mountains-banner.jpg')"}}>
+      <div className='banner-login' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/mountains-banner.jpg')"}}>
         <div className='title'>
           <h1>Mi Cuenta</h1>
         </div>

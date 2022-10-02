@@ -15,7 +15,7 @@ export default function SandBox() {
   return (
     <>
       <Header />
-      <div className='sandbox-banner' style={{backgroundImage: "url('images/mountains-banner-3.jpg')"}}>
+      <div className='sandbox-banner' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/mountains-banner-3.jpg')"}}>
       </div>
       <div className='sandbox-carousel'>
         <Slider {...settings} >

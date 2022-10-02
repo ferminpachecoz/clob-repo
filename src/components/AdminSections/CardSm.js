@@ -33,7 +33,7 @@ export default function CardSm({click, product}) {
   },[deleted])
   
   return (
-    <div ref={card_cont} className='product-card-sm' style={{backgroundImage: `url("images/${img?img.path:'default-placeholder.png'}")`}}>
+    <div ref={card_cont} className='product-card-sm' style={{backgroundImage: `url("/preview/ferminpacheco.site/images/${img?img.path:'default-placeholder.png'}")`}}>
       <div className={`d-flex justify-content-center ${product.show == 0 ? 'show-none': 'shadow-box'}`}>
         <div className='d-flex flex-column flex-sm-column flex-md-row flex-xl-row justify-content-center align-items-center'>
           <button className='button-add' onClick={()=>click(1, product.id)}>Editar</button>

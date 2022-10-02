@@ -21,11 +21,11 @@ export default function BannerGender() {
       {category &&
         category.map(item=>    
           <div className='parent col' key={item.id}>
-            <div className='wrapper d-flex justify-content-center align-items-center' style={{backgroundImage: `url(${'images/'+item.img_path})`}}>
+            <div className='wrapper d-flex justify-content-center align-items-center' style={{backgroundImage: `url(${'/preview/ferminpacheco.site/images/'+item.img_path})`}}>
               <div className='content' data-aos="zoom-in" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
                 <h1>{item.title}</h1>
                 <div className='d-flex justify-content-center'>
-                  <a href={`/category?id=${item.id}`}>comprar ahora {'>'}</a>
+                  <a href={`/preview/ferminpacheco.site/category?id=${item.id}`}>comprar ahora {'>'}</a>
                 </div>
               </div>
             </div>

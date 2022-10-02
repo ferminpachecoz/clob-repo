@@ -16,7 +16,7 @@ export default function Admin() {
   return (
     <div>
       <Header />
-      <div className='admin-banner-container' style={{backgroundImage: "url('images/mountains-banner-3.jpg')"}}>
+      <div className='admin-banner-container' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/mountains-banner-3.jpg')"}}>
         
       </div>
       <main className='row'>

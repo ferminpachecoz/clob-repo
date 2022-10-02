@@ -6,7 +6,7 @@ export default function CategorySection({products}) {
   let title = products && products[0]?products[0].category.title:'';
   return (
     <div className='category-section-container'>
-      <div className='banner-category' style={{backgroundImage: "url('images/mountains-banner.jpg')"}}>
+      <div className='banner-category' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/mountains-banner.jpg')"}}>
         <div className='shadow'>
           <h1>{title}</h1>
         </div>

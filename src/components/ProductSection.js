@@ -20,7 +20,7 @@ export default function ProductSection({display, product}) {
   }
   return (
     <div>
-      <div className='only-product-banner' style={{backgroundImage:"url('images/mountains-banner-5.jpg')"}}>
+      <div className='only-product-banner' style={{backgroundImage:"url('/preview/ferminpacheco.site/images/mountains-banner-5.jpg')"}}>
         <div className='shadow'>
 
         </div>
@@ -31,7 +31,7 @@ export default function ProductSection({display, product}) {
             {images &&
               images.map(item=>
               <div key={item.id} className="image-container">
-                <div className='background-img' style={{backgroundImage: `url(${'images/'+item.path})`}}>
+                <div className='background-img' style={{backgroundImage: `url(${'/preview/ferminpacheco.site/images/'+item.path})`}}>
 
                 </div>
               </div>
@@ -45,7 +45,7 @@ export default function ProductSection({display, product}) {
         <div className='col d-flex justify-content-center align-items-center'>
           <div className='col-8 product-nav'>
             <div className='category-title'>
-              <a href="/product">{`< ${product && product.category?product.category.title:''}`}</a>
+              <a href="/preview/ferminpacheco.site/product">{`< ${product && product.category?product.category.title:''}`}</a>
             </div>
             <hr/>
             <div className="d-flex justify-content-between align-items-center product-info mt-4">

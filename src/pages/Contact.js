@@ -15,7 +15,7 @@ function Map (){
   return (
     <div>
       <Header />
-      <div className='contact-banner mb-5' style={{backgroundImage: "url('images/mountains-banner-2.jpg')"}}>
+      <div className='contact-banner mb-5' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/mountains-banner-2.jpg')"}}>
 
       </div>
       <GoogleMap zoom={15} center={{lat: -41.12178670310981, lng: -71.40375798504826}} mapContainerClassName="map-container" >

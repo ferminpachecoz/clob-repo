@@ -10,7 +10,7 @@ export default function BannerInfo() {
   return (
     <div className='d-flex justify-content-evenly banner-info-container'>
       <div className='content'>
-        <div className='content-image' style={{backgroundImage: "url('images/banner-info-1.webp')"}}>
+        <div className='content-image' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/banner-info-1.webp')"}}>
           <div 
           data-aos="fade-up" 
           data-aos-duration="2000" 
@@ -18,14 +18,14 @@ export default function BannerInfo() {
           className='d-flex flex-column justify-content-center align-items-center content-text'>
             <h1>contacta con nosotros</h1>
             <div>
-              <a href="/contact">descubre mas {">"}</a>
+              <a href="/preview/ferminpacheco.site/contact">descubre mas {">"}</a>
             </div>
           </div>
         </div>
       </div>
 
       <div className='content'>
-        <div className='content-image' style={{backgroundImage: "url('images/banner-info-2.webp')"}}>
+        <div className='content-image' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/banner-info-2.webp')"}}>
           <div 
           data-aos="fade-up" 
           data-aos-duration="2000" 
@@ -33,14 +33,14 @@ export default function BannerInfo() {
           className='d-flex flex-column justify-content-center align-items-center content-text'>
             <h1>localizador de tiendas</h1>
             <div>
-              <a href="/contact">descubre mas {">"}</a>
+              <a href="/preview/ferminpacheco.site/contact">descubre mas {">"}</a>
             </div>
           </div>
         </div>
       </div>
 
       <div className='content'>
-        <div className='content-image' style={{backgroundImage: "url('images/banner-info-3.webp')"}}>
+        <div className='content-image' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/banner-info-3.webp')"}}>
           <div 
           data-aos="fade-up" 
           data-aos-duration="2000" 

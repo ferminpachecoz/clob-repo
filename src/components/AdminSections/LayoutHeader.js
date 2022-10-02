@@ -52,7 +52,7 @@ export default function LayoutHeader({category, notHeader, title, section}) {
         {
           visible.map((item, i)=>
             <div key={i+'vth'} className='col' >
-              <div className='square' style={{backgroundImage: `url('images/${item.img_path}')`}}>
+              <div className='square' style={{backgroundImage: `url('/preview/ferminpacheco.site/images/${item.img_path}')`}}>
                 <div className='shadow p-3'>
                   <p>{item.title}</p>
                   <div className='button-container'>
@@ -69,7 +69,7 @@ export default function LayoutHeader({category, notHeader, title, section}) {
         {
           notVisible.map((item, i)=>
             <div key={i+'nv'} className='col'>
-              <div className='square' style={{backgroundImage: `url('images/${item.img_path}')`}}>
+              <div className='square' style={{backgroundImage: `url('/preview/ferminpacheco.site/images/${item.img_path}')`}}>
                 <div className='shadow p-3'>
                   <p>{item.title}</p>
                   <div className='button-container'>

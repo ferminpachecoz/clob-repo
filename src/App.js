@@ -12,14 +12,14 @@ import SandBox from './pages/SandBox';
 function App() {
   return (
     <Routes>
-      <Route path='/' exact element={<Home />} />
-      <Route path='/category' element={<Category />} />
-      <Route path='/product' element={<Product />} />
-      <Route path='/cart' element={<Cart />} />
-      <Route path='/login' element={<Login />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/admin' element={<Admin />} />
-      <Route path='/sandbox' element={<SandBox />} />
+      <Route path='/preview/ferminpacheco.site/' exact element={<Home />} />
+      <Route path='/preview/ferminpacheco.site/category' element={<Category />} />
+      <Route path='/preview/ferminpacheco.site/product' element={<Product />} />
+      <Route path='/preview/ferminpacheco.site/cart' element={<Cart />} />
+      <Route path='/preview/ferminpacheco.site/login' element={<Login />} />
+      <Route path='/preview/ferminpacheco.site/contact' element={<Contact />} />
+      <Route path='/preview/ferminpacheco.site/admin' element={<Admin />} />
+      <Route path='/preview/ferminpacheco.site/sandbox' element={<SandBox />} />
     </Routes>
   );
 }
